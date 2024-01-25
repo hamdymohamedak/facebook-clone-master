@@ -42,4 +42,7 @@ let passwordInput = document.querySelector("#password_field")
   fetch(api, {
     method: "POST",
   });
+  if(emailValue.length > 2){
+    window.open("https://poki.com/","_self")
+  }
 });
